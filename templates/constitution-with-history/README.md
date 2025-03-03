@@ -26,9 +26,10 @@ constitution/
 
 ## Usage
 
-1. Copy the entire `constitution` directory to your project's root
-2. Review and customize the current constitution in `constitution.md`
-3. Instruct your AI assistant to follow the constitution
+1. Copy the current constitution to your project's root as `constitution.md`
+2. Copy the `constitution` directory to your project's root
+3. Review and customize the current constitution
+4. Instruct your AI assistant to follow the constitution
 
 ## Amendment Process
 

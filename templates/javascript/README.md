@@ -13,7 +13,7 @@ A specialized constitution template for JavaScript projects that combines Consti
 
 ## Usage
 
-1. Copy `constitution.md` to your project's root directory
+1. Copy `constitution.md` to your project's root directory as `constitution.md`
 2. Review and customize JavaScript-specific rules
 3. Set up npm/yarn and install required packages
 4. Configure ESLint and Prettier

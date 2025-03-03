@@ -13,7 +13,7 @@ A specialized constitution template for Ruby projects that combines Constitution
 
 ## Usage
 
-1. Copy `constitution.md` to your project's root directory
+1. Copy `constitution.md` to your project's root directory as `constitution.md`
 2. Review and customize Ruby-specific rules
 3. Set up Bundler and required gems
 4. Configure Rubocop and other tools

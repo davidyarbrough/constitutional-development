@@ -61,11 +61,11 @@ Emphasizes TypeScript's type system, strict configurations, and type-safe develo
 To implement Constitutional Development in your project:
 
 1. Choose a template that matches your needs:
-   - `templates/simple/` - A minimal constitution focused on core principles, a good one to build upon.
+   - `templates/simple/` - A minimal constitution focused on core principles, is a good one to build upon.
 
-2. Copy the chosen template to your project:
-   - For simple template: Copy `templates/simple/constitution.md` to your project's root directory
-   - For more complex templates: Copy the entire template directory structure as indicated in the template's documentation
+2. Copy the chosen template's constitution to your project:
+   - The constitution should be placed at the root of your project as `constitution.md`
+   - For templates with additional files, follow their specific documentation
 
 3. Instruct your AI assistant to follow the constitution, either as a persistent prompt (if your assistant supports it) or as an instruction in a conversation:
    ```

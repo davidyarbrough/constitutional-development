@@ -30,6 +30,8 @@
    - A dedicated directory
    - A `constitution.md` file
    - A `README.md` file
+3. When implementing a template, the constitution MUST be placed at the root of the project as `constitution.md`
+4. If templates have supporting documents or directories, their purpose must be documented in the template's README.md and explained by the constitution itself.
 
 ### Documentation Requirements
 

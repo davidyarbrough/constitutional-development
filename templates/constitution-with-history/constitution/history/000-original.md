@@ -19,10 +19,10 @@ This constitution establishes the fundamental principles and rules governing the
 ### Section 3: Amendment Process
 3.1 Amendments may be made to add or revise sections and subsections.
 3.2 When a section is amended, the previous version becomes invalid.
-3.3 The original constitutional document and all amendments shall be maintained at `/docs/constitution/history/`.
+3.3 The original constitutional document and all amendments shall be maintained at `/constitution/history/`.
 3.4 The original constitution shall be named `000-original.md`.
 3.5 All other amendments shall be named `XXX-amendment-name.md` where `XXX` is the sequential number of the amendment.
-3.6 The current, consolidated constitution shall be maintained at `/docs/constitution/constitution.md`.
+3.6 The current, consolidated constitution shall be maintained in the project root at `constitution.md`.
 3.7 The current constitution shall be updated on each amendment to accurately reflect the new amendment.
 3.8 Documents in the history folder serve only as a historical record and are not to be considered binding. Only the current constitution referenced in subsection 3.6 is to be considered binding.
 3.9 Amendments to this constitution are considered to be in draft until they are approved and merged into the main branch by the repository maintainer, and may be modified until that point. Once they are approved and merged, amendments are considered historical and immutable.

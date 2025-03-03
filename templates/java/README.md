@@ -13,7 +13,7 @@ A specialized constitution template for Java projects that combines Constitution
 
 ## Usage
 
-1. Copy `constitution.md` to your project's root directory
+1. Copy `constitution.md` to your project's root directory as `constitution.md`
 2. Review and customize Java-specific rules
 3. Ensure build tools (Maven/Gradle) align with constitutional requirements
 4. Set up recommended code quality tools (SpotBugs, PMD, Checkstyle)

@@ -15,7 +15,7 @@ A minimal constitution template focused on essential governance rules. This temp
 
 ## Usage
 
-1. Copy `constitution.md` to your project's root directory
+1. Copy `constitution.md` to your project's root directory as `constitution.md`
 2. Review and modify the rules to match your project's needs
 3. Instruct your AI assistant to follow the constitution
 

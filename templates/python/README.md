@@ -13,7 +13,7 @@ A specialized constitution template for Python projects that combines Constituti
 
 ## Usage
 
-1. Copy `constitution.md` to your project's root directory
+1. Copy `constitution.md` to your project's root directory as `constitution.md`
 2. Review and customize Python-specific rules
 3. Set up virtual environment and install recommended tools
 4. Configure code quality tools (Black, isort, flake8, mypy)
