@@ -75,9 +75,74 @@ To implement Constitutional Development in your project:
 
 4. Ask your AI assistant to review the constitution to ensure that it can see and interpret it correctly
 
+## For Organizations
+
+Constitutional Development can be implemented organization-wide to ensure consistent governance across all projects. Here's how to get started:
+
+### Setting Up Organization Templates
+
+1. Fork this repository to create your organization's constitutional template repository
+2. Customize existing templates or create new ones specific to your organization's needs:
+   - Language-specific requirements
+   - Code style preferences
+   - Testing standards
+   - Documentation requirements
+   - Security policies
+   - Deployment guidelines
+
+### Implementation Strategies
+
+#### Project-Level Implementation
+- Each project includes its own `constitution.md`
+- Projects can extend organization templates with project-specific rules
+- Allows for project-level flexibility while maintaining org-wide standards
+
+#### Organization-Level Implementation
+- Maintain a central constitution repository
+- Projects reference the organization's constitution(s)
+- Easier to maintain and update across all projects
+- More consistent governance
+
+### Enforcement Options
+
+1. **Git Hooks**:
+   - Pre-commit hooks to validate constitutional compliance
+   - Custom scripts to check code against constitutional rules
+   - Automated documentation checks
+
+2. **CI/CD Integration**:
+   - Constitutional compliance checks in CI pipelines
+   - Automated testing of governance rules
+   - Integration with code review tools
+
+3. **Code Analysis Tools**:
+   - Custom linters for constitutional rules
+   - Static analysis tools
+   - Documentation validators
+
+### Best Practices
+
+1. **Version Control**:
+   - Track constitutional changes with explanatory comments
+   - Document amendments and their rationale
+   - Maintain a clear amendment process (simpler may be better)
+
+2. **Communication**:
+   - Train teams on constitutional principles
+   - Decide who is allowed to make amendments (all devs, technical leads, directors and above, etc.)
+   - Include constitutional review in code reviews
+   - Document constitutional decisions
+
+3. **Maintenance**:
+   - Regular review of constitutional effectiveness
+   - Update templates based on team feedback
+   - Monitor AI assistant compliance
+
 ## Contributing
 
 Pull requests are welcome, particularly for language-specific or agent-specific template recommendations.
+
+If you have piloted Constitutional Development in your personal development or organization, I would love to hear about your experience, as well as any recommendations or feedback you may have. New templates as well as workflow integrations are always welcome.
 
 ## License
 
