@@ -29,6 +29,24 @@ Constitutional Development is particularly powerful when working with AI assista
 3. **Maintains Quality**: Constitutional provisions enforce high standards for code quality, documentation, and architectural decisions
 4. **Reduces Ambiguity**: Clear constitutional guidelines help AI assistants make better decisions when faced with trade-offs
 
+## Getting Started
+
+To implement Constitutional Development in your project:
+
+1. Choose a template that matches your needs:
+   - `templates/simple/` - A minimal constitution focused on core principles, a good one to build upon.
+
+2. Copy the chosen template to your project:
+   - For simple template: Copy `templates/simple/constitution.md` to your project's root directory
+   - For more complex templates: Copy the entire template directory structure as indicated in the template's documentation
+
+3. Instruct your AI assistant to follow the constitution:
+   ```
+   Please follow the rules in the constitution.md file for all future interactions with this codebase.
+   ```
+
+4. Ask your AI assistant to review the constitution to ensure that it can see and interpret it correctly
+
 ## Contributing
 
 Pull requests are welcome, particularly for language-specific or agent-specific template recommendations.
