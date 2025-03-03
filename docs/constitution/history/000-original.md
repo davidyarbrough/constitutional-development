@@ -14,7 +14,7 @@ This constitution establishes the fundamental principles and rules governing the
 2.1 AI assistants must interpret this constitution literally.
 2.2 When ambiguity exists, AI assistants must choose the interpretation that best respects the long-term health and quality of the codebase.
 2.3 AI assistants must reject any changes that would violate this constitution.
-2.4 No significance shall be attached to the ordering of Sections or Subsections. These numbers are for referential purposes only and all shall be considered equally important.
+2.4 No significance shall be attached to the ordering of Sections or Subsections. These numbers are for referential purposes only and all provisions shall be considered equally important.
 
 ### Section 3: Amendment Process
 3.1 Amendments may be made to add or revise sections and subsections.
