@@ -29,6 +29,14 @@ Constitutional Development is particularly powerful when working with AI assista
 3. **Maintains Quality**: Constitutional provisions enforce high standards for code quality, documentation, and architectural decisions
 4. **Reduces Ambiguity**: Clear constitutional guidelines help AI assistants make better decisions when faced with trade-offs
 
+## Available Templates
+
+### [Simple Template](templates/simple/)
+A minimal constitution focused on core principles, perfect for getting started with Constitutional Development or building a custom governance structure. Features basic quality rules and a straightforward amendment process.
+
+### [Constitution with History](templates/constitution-with-history/)
+A comprehensive template that maintains a complete historical record of constitutional changes. Ideal for projects requiring formal amendment processes and governance auditability.
+
 ## Getting Started
 
 To implement Constitutional Development in your project:
