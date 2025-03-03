@@ -67,7 +67,7 @@ To implement Constitutional Development in your project:
    - For simple template: Copy `templates/simple/constitution.md` to your project's root directory
    - For more complex templates: Copy the entire template directory structure as indicated in the template's documentation
 
-3. Instruct your AI assistant to follow the constitution:
+3. Instruct your AI assistant to follow the constitution, either as a persistent prompt (if your assistant supports it) or as an instruction in a conversation:
    ```
    Please follow the rules in the constitution.md file for all future interactions with this codebase.
    ```
