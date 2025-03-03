@@ -1,15 +1,15 @@
-# Constitutional Development Template
+# Constitutional Development
 
-This repository serves as a template for implementing Constitutional Development in software projects. Constitutional Development is an AI-friendly approach to software development that establishes a clear, natural-language set of principles and rules that govern all aspects of a codebase through a project constitution.
+This repository serves as a guide for implementing Constitutional Development in software projects.
 
 ## What is Constitutional Development?
 
 Constitutional Development is a software development methodology where a formal constitution serves as the supreme authority for all code decisions and system behaviors within a repository. This approach:
 
 1. Establishes clear, foundational principles that guide development
-2. Creates a consistent framework for decision-making
-3. Ensures long-term maintainability and code quality
-4. Provides explicit governance over documentation and architectural decisions
+2. Creates a consistent framework for decision-making over time, increasing the cohesion of AI-generated code.
+3. Reduces conflicts from multiple developers running multiple independent AI assistants
+4. Provides a single source of truth for decisions that would otherwise be decided by AI assistants on the fly.
 
 ## How It Works
 
@@ -18,16 +18,17 @@ The heart of Constitutional Development is the project constitution. This docume
 - Serves as the highest authority for all code and documentation
 - Binds both human developers and AI assistants to its provisions
 - Can be amended through a formal process designated by the repository maintainer
-- Delegates specific governance to other key documents (ADRs, style guides, etc.)
+- May delegate specific governance to other key documents (ADRs, style guides, etc.)
 
 ## Benefits for AI-Assisted Development
 
 Constitutional Development is particularly powerful when working with AI assistants because it:
 
-1. **Provides Clear Boundaries**: AI assistants can reference explicit rules and principles when making decisions
+1. **Provides Clear Boundaries**: AI assistants can reference explicit rules and principles when making decisions about the repository, even across user environments (or across different AI tools)
 2. **Ensures Consistency**: All changes, whether made by humans or AI, must adhere to the same constitutional framework
-3. **Maintains Quality**: Constitutional provisions enforce high standards for code quality, documentation, and architectural decisions
-4. **Reduces Ambiguity**: Clear constitutional guidelines help AI assistants make better decisions when faced with trade-offs
+3. **Maintains Quality**: Constitutional provisions enforce standards for code quality, documentation, and architectural decisions and may be as specific as they need to be.
+4. **Reduces Ambiguity**: Clear constitutional guidelines help AI assistants make more consistent decisions when faced with trade-offs or other ambiguous circumstances.
+5. **Flexible and Extensible**: Project constitutions can be tuned to any combination of human contributors, AI contributors, languages, frameworks, or styles. If you are seeing a recurring issue with AI assisted development, a new amendment may guide it more consistently toward the result you want.
 
 ## Available Templates
 
