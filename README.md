@@ -31,11 +31,30 @@ Constitutional Development is particularly powerful when working with AI assista
 
 ## Available Templates
 
-### [Simple Template](templates/simple/)
+### General Templates
+
+#### [Simple Template](templates/simple/)
 A minimal constitution focused on core principles, perfect for getting started with Constitutional Development or building a custom governance structure. Features basic quality rules and a straightforward amendment process.
 
-### [Constitution with History](templates/constitution-with-history/)
+#### [Constitution with History](templates/constitution-with-history/)
 A comprehensive template that maintains a complete historical record of constitutional changes. Ideal for projects requiring formal amendment processes and governance auditability.
+
+### Language-Specific Templates
+
+#### [Java Template](templates/java/)
+Combines Constitutional Development with Java best practices, including package organization, SOLID principles, and Java-specific tooling requirements.
+
+#### [Python Template](templates/python/)
+Integrates Python conventions (PEP 8), type hints, and modern Python tooling with constitutional governance.
+
+#### [Ruby Template](templates/ruby/)
+Incorporates Ruby idioms, gem structure guidelines, and Ruby-specific testing and documentation practices.
+
+#### [JavaScript Template](templates/javascript/)
+Focuses on modern JavaScript features, browser compatibility, and JavaScript ecosystem best practices.
+
+#### [TypeScript Template](templates/typescript/)
+Emphasizes TypeScript's type system, strict configurations, and type-safe development patterns.
 
 ## Getting Started
 
