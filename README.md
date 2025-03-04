@@ -138,6 +138,72 @@ Constitutional Development can be implemented organization-wide to ensure consis
    - Update templates based on team feedback
    - Monitor AI assistant compliance
 
+## Legacy Codebases
+
+Constitutional Development can be introduced to existing codebases through a phased approach:
+
+### Phase 1: Assessment
+
+1. **Code Analysis**:
+   - Use AI assistants to analyze the current codebase structure
+   - Identify common patterns and anti-patterns
+   - Document existing implicit conventions
+   - Map dependencies and architectural boundaries
+
+2. **Draft Constitution**:
+   - Start with existing conventions that work well
+   - Address known pain points and technical debt
+   - Keep initial rules broad to avoid overwhelming violations
+   - Focus on forward-looking rules that guide new development
+
+### Phase 2: Implementation
+
+1. **Scanning for Violations**:
+   - Use AI assistants to identify constitutional violations
+   - Create reports categorizing violations by:
+     * Severity (critical, major, minor)
+     * Type (style, architecture, documentation)
+     * Location (specific files or components)
+   - Track violation patterns to identify systemic issues
+
+2. **Prioritization**:
+   - Focus on preventing new violations first
+   - Address critical violations in high-traffic code
+   - Create technical debt tickets for existing violations
+   - Set realistic timelines for compliance
+
+### Phase 3: Enforcement
+
+1. **Gradual Rollout**:
+   - Start with new code only
+   - Add pre-commit hooks for basic checks
+   - Implement CI/CD validation
+   - Monitor and adjust rules based on feedback
+
+2. **Violation Management**:
+   - Document approved exceptions
+   - Create automated waivers for legacy code
+   - Set up violation tracking dashboards
+   - Regular review of waived violations
+
+### Best Practices
+
+1. **Start Small**:
+   - Begin with a minimal set of rules
+   - Focus on highest-impact areas first
+   - Gradually expand scope as team adapts
+
+2. **Team Involvement**:
+   - Get buy-in from developers
+   - Use constitutional reviews in code review process
+   - Regular team discussions about constitutional effectiveness
+
+3. **Tooling**:
+   - Leverage AI assistants for violation detection
+   - Integrate with existing code analysis tools
+   - Automate reporting and tracking
+   - Make compliance status visible
+
 ## Contributing
 
 Pull requests are welcome, particularly for language-specific or agent-specific template recommendations.
