@@ -20,6 +20,39 @@ The heart of Constitutional Development is the project constitution. This docume
 - Can be amended through a formal process designated by the repository maintainer
 - May delegate specific governance to other key documents (ADRs, style guides, etc.)
 
+### Constitutional Structure
+
+A well-formed constitution follows a standardized structure to ensure clarity and ease of reference:
+
+#### Rules and Sections
+
+- **Rule**: A specific directive that an AI assistant or developer should treat as supreme guidance for the project. Each rule must have a unique reference number and be expressed as a clear, actionable statement.
+
+- **Section**: A numbered categorization that groups related rules together. Sections provide organization and context for the rules they contain.
+
+#### Numbering Pattern
+
+Constitutions use hierarchical numbering to create unambiguous references to each rule:
+
+- **Major Sections**: Numbered sequentially (1, 2, 3...)
+- **Subsections**: Use decimal notation (2.1, 2.2, 2.3...)
+- **Rules**: Continue the hierarchy (2.1.1, 2.1.2...)
+
+For example:
+```
+2. Code Quality
+  2.1. Testing Standards
+    2.1.1. All functions must have corresponding unit tests
+    2.1.2. Test coverage must exceed 80% for all modules
+```
+
+#### Hierarchy Best Practices
+
+- Keep the hierarchy as flat as possible to prevent confusion
+- Each rule should be a leaf in the hierarchy tree (not containing further rules)
+- Avoid combining rules. Generally, if a rule contains an "and", consider splitting it into two rules
+- Higher-level nodes should only serve as categorization for the rules beneath them
+
 ## Benefits for AI-Assisted Development
 
 Constitutional Development is particularly powerful when working with AI assistants because it:
