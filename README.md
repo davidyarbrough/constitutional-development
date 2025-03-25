@@ -57,6 +57,11 @@ Focuses on modern JavaScript features, browser compatibility, and JavaScript eco
 #### [TypeScript Template](templates/typescript/)
 Emphasizes TypeScript's type system, strict configurations, and type-safe development patterns.
 
+### Framework-Specific Templates
+
+#### [MERN TypeScript Template](templates/mern-typescript/)
+Provides comprehensive guidelines for MERN (MongoDB, Express, React, Node.js) stack applications with TypeScript. Features hierarchical rule numbering, strong testing requirements, and structured guidelines for each part of the stack.
+
 ### Development Methodology Templates
 
 #### [Test-Driven Development Template](templates/test-driven-development/)
