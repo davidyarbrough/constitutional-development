@@ -1,110 +1,119 @@
+
 # Phaser Game Development Constitution
 
-## Core Principles
+## 1. Core Principles
 
-1. This constitution governs the structure, organization, and standards of Phaser game code and documentation within this repository
-2. All code and documentation changes must adhere to these principles
-3. Cross-platform compatibility must be verifiable through repository contents
-4. Code maintainability and readability are fundamental requirements
+1.1. Authority
+1.1.1. This constitution governs the structure, organization, and standards of Phaser game code and documentation within this repository.
+1.1.2. All developers and AI assistants must follow these rules.
+1.1.3. The repository maintainer has final authority on all changes.
 
-## Code Organization
+1.2. Mission
+1.2.1. All code, documentation, and templates must promote clear, AI-friendly, and human-readable governance.
 
-### Source Structure
+## 2. Template Standards
 
-1. Game scenes must be organized as:
-   - One scene per file
-   - Grouped in a `scenes` directory
-   - Named with `.scene.ts` or `.scene.js` suffix
-   - Documented with standardized JSDoc comments
+2.1. Constitutional Structure
+2.1.1. This constitution follows a standardized structure with rules as specific directives treated as supreme guidance.
+2.1.2. Each rule has a unique reference number.
+2.1.3. Each rule is expressed as a clear, actionable statement.
+2.1.4. Sections are numbered categorizations that group related rules.
 
-2. Asset references must be:
-   - Declared in type-safe asset manifests
-   - Organized by asset type (sprites, audio, etc.)
-   - Include explicit dimensions and formats in comments
-   - Reference relative paths from an `assets` directory
+2.2. Numbering System
+2.2.1. Major sections are numbered sequentially (1., 2., 3., etc.).
+2.2.2. Subsections use decimal notation (2.1., 2.2., 2.3., etc.).
+2.2.3. Rules continue the hierarchy (2.1.1., 2.1.2., etc.).
+2.2.4. All decimal points are followed by a space.
 
-### Cross-Platform Standards
+2.3. Hierarchy Best Practices
+2.3.1. The hierarchy is kept as flat as possible to prevent confusion.
+2.3.2. Each rule is a leaf in the hierarchy tree.
+2.3.3. Avoid combining rules; if a rule contains "and", it is split into separate rules.
+2.3.4. Higher-level nodes only serve as categorization for rules beneath them.
 
-1. Input handling code must:
-   - Use abstract input interfaces
-   - Include type definitions for all input methods
-   - Maintain separate touch and mouse handler implementations
-   - Document platform-specific behavior in code comments
+2.4. General Requirements
+2.4.1. This template includes clear core principles.
+2.4.2. This template includes specific governance rules.
+2.4.3. This template includes an amendment process.
+2.4.4. This template includes documentation standards.
+2.4.5. This template includes code standards.
+2.4.6. All rules and documentation are clear and unambiguous.
+2.4.7. All rules and documentation are easy to understand by both humans and AI.
+2.4.8. The template is maintainable and extensible.
 
-2. Platform-specific code must:
-   - Be isolated in clearly marked conditional blocks
-   - Include explanatory comments for platform differences
-   - Be accompanied by unit tests for each platform
-   - Use standardized platform detection utilities
+## 3. Code Organization
 
-## Documentation Requirements
+3.1. Source Structure
+3.1.1. Each game scene must be defined in a separate file.
+3.1.2. All scene files must reside in a `scenes` directory.
+3.1.3. Scene files must be named with a `.scene.ts` suffix.
+3.1.4. Scene files must include standardized JSDoc comments.
+3.1.5. Asset references must be declared in type-safe asset manifests.
+3.1.6. Asset manifests must be organized by asset type (sprites, audio, etc.).
+3.1.7. Asset comments must specify explicit dimensions and formats.
+3.1.8. Asset references must use relative paths from the `assets` directory.
 
-### Code Documentation
+3.2. Cross-Platform Standards
+3.2.1. Input handling code must use abstract input interfaces.
+3.2.2. Input handling code must include type definitions for all input methods.
+3.2.3. Touch and mouse handler implementations must be maintained separately.
+3.2.4. Platform-specific behavior must be documented in code comments.
+3.2.5. Platform-specific code must be isolated in clearly marked conditional blocks.
+3.2.6. Platform-specific code must include explanatory comments for platform differences.
+3.2.7. Platform-specific code must be accompanied by unit tests for each platform.
+3.2.8. Platform-specific code must use standardized platform detection utilities.
 
-1. All scene files must document:
-   - Required assets and their specifications
-   - Input handling expectations
-   - Platform-specific behaviors
-   - Performance considerations
+## 4. Documentation Standards
 
-2. Game configuration must document:
-   - Required renderer capabilities
-   - Minimum memory requirements
-   - Asset loading strategies
-   - Platform support matrix
+4.1. Code Documentation
+4.1.1. All scene files must document required assets and their specifications.
+4.1.2. All scene files must document input handling expectations.
+4.1.3. All scene files must document platform-specific behaviors.
+4.1.4. All scene files must document performance considerations.
+4.1.5. Game configuration must document required renderer capabilities.
+4.1.6. Game configuration must document minimum memory requirements.
+4.1.7. Game configuration must document asset loading strategies.
+4.1.8. Game configuration must document the platform support matrix.
 
-### Asset Documentation
+4.2. Asset Documentation
+4.2.1. Asset manifest files must specify required dimensions and formats.
+4.2.2. Asset manifest files must specify memory usage estimates.
+4.2.3. Asset manifest files must specify platform compatibility notes.
+4.2.4. Asset manifest files must specify optimization requirements.
+4.2.5. Asset pipeline documentation must include format conversion specifications.
+4.2.6. Asset pipeline documentation must include compression requirements.
+4.2.7. Asset pipeline documentation must include platform-specific variants.
+4.2.8. Asset pipeline documentation must include loading sequence dependencies.
 
-1. Asset manifest files must specify:
-   - Required dimensions and formats
-   - Memory usage estimates
-   - Platform compatibility notes
-   - Optimization requirements
+## 5. Code Standards
 
-2. Asset pipeline documentation must include:
-   - Format conversion specifications
-   - Compression requirements
-   - Platform-specific variants
-   - Loading sequence dependencies
+5.1. Testing Standards
+5.1.1. The repository must include tests for platform-specific code paths.
+5.1.2. The repository must include tests for input handling implementations.
+5.1.3. The repository must include tests for asset loading procedures.
+5.1.4. The repository must include tests for scene transitions.
+5.1.5. Test files must reside alongside source files.
+5.1.6. Test files must use the `.test.ts` or `.test.js` suffix.
+5.1.7. Test files must include platform-specific test cases.
+5.1.8. Test files must verify memory management.
 
-## Testing Standards
+5.2. Code Quality
+5.2.1. All source files must pass ESLint/TSLint with the provided configuration.
+5.2.2. All source files must include complete type definitions.
+5.2.3. All source files must follow project naming conventions.
+5.2.4. All source files must maintain cyclomatic complexity below the agreed threshold.
+5.2.5. All scene implementations must implement standard lifecycle methods.
+5.2.6. All scene implementations must document asset dependencies.
+5.2.7. All scene implementations must handle cleanup in shutdown/destroy methods.
+5.2.8. All scene implementations must use dependency injection where appropriate.
 
-1. Repository must include tests for:
-   - Platform-specific code paths
-   - Input handling implementations
-   - Asset loading procedures
-   - Scene transitions
+## 6. Amendment Process
 
-2. Test files must:
-   - Reside alongside source files
-   - Use `.test.ts` or `.test.js` suffix
-   - Include platform-specific test cases
-   - Verify memory management
-
-## Code Quality Standards
-
-1. All source files must:
-   - Pass ESLint/TSLint with provided config
-   - Include complete type definitions
-   - Follow project naming conventions
-   - Maintain cyclomatic complexity below agreed threshold
-
-2. Scene implementations must:
-   - Implement standard lifecycle methods
-   - Document asset dependencies
-   - Handle cleanup in shutdown/destroy
-   - Use dependency injection where appropriate
-
-## Amendment Process
-
-1. Changes to this constitution require:
-   - Pull request with explanation
-   - Updates to affected documentation
-   - Corresponding test updates
-   - Maintainer approval
-
-2. Emergency fixes must still:
-   - Follow code organization rules
-   - Include minimal required tests
-   - Update relevant documentation
-   - Be reviewed post-implementation
+6.1. Changes to this constitution require a pull request with explanation.
+6.2. Changes to this constitution require updates to affected documentation.
+6.3. Changes to this constitution require corresponding test updates.
+6.4. Changes to this constitution require maintainer approval.
+6.5. Emergency fixes must still follow code organization rules.
+6.6. Emergency fixes must include minimal required tests.
+6.7. Emergency fixes must update relevant documentation.
+6.8. Emergency fixes must be reviewed post-implementation.
